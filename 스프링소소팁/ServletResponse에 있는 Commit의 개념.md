@@ -25,7 +25,7 @@ SameSite도 알아보고, 별에 별걸 다 알아봤는데도 정확한 원인 
 
 ![image](https://github.com/gomudayya/TIL/assets/129571789/725d5916-8885-4454-96ee-5e669fcb6435)
 
-위의 코드를 보면 response를 조작하는 모든 메서드들이 response의 상태를 변경하기 전에 `isCommited()`를 호출해 커밋된상태인지 아닌지 확인한다. <br>
+위의 코드를 보면 response를 조작하는 모든 메서드들이 response의 상태를 변경하기 전에 `isCommited()`를 호출해 커밋된상태인지 아닌지 확인한다.
 그리고 커밋된 상태이면 그냥 return을 시킨다.
 
 ### 그래서 Committed 된다는게 무슨 의미인데?
